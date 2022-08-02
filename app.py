@@ -1,11 +1,11 @@
 import requests
 import datetime
+from config import open_weather_token, tg_bot_token
 from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 
-open_weather_token = "217afa14eae2e81872a5f044caaced82"
-tg_bot_token = "5207624063:AAEhdvdx02JxblMF4XUgRJkgn9GWxk05aN8"
+
 
 bot = Bot(token=tg_bot_token)
 dp = Dispatcher(bot)
